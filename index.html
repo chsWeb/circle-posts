@@ -58,11 +58,12 @@
             })(document, window.mixpanel || []);
 
             mixpanel.init("40d4024be4c283f1c6dd3d637d26ddb7", {
+                autocapture: true,
                 record_sessions_percent: 100,
                 record_block_selector: '',
                 record_mask_text_class: '',
                 record_mask_text_selector: '',
-                record_heatmap_data: true,
+                record_heatmap_data: true
             });
 
             /* Page-level context */
