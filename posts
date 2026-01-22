@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Circle Tips, Tutorials, Design and Strategy – Jono Young</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description"
+            content="Curated Circle tips, tutorials, UX design patterns, and implementation guides by Jono Young." />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+            rel="stylesheet">
+        <style>
+            body {
+                font-family: "Figtree", sans-serif;
+                font-optical-sizing: auto;
+                /*font-weight: 500;*/
+                /*font-style: normal;*/
+            }
+        </style>
+        <!-- Mixpanel Tracking -->
+        <script type="text/javascript">
+            (function (e, c) {
+                if (!c.__SV) {
+                    var l, h; window.mixpanel = c; c._i = [];
+                    c.init = function (q, r, f) {
+                        function t(d, a) {
+                            var g = a.split(".");
+                            2 == g.length && (d = d[g[0]], a = g[1]);
+                            d[a] = function () {
+                                d.push([a].concat(Array.prototype.slice.call(arguments, 0)))
+                            }
+                        }
+                        var b = c;
+                        "undefined" !== typeof f ? b = c[f] = [] : f = "mixpanel";
+                        b.people = b.people || [];
+                        b.toString = function (d) {
+                            var a = "mixpanel";
+                            "mixpanel" !== f && (a += "." + f);
+                            d || (a += " (stub)");
+                            return a
+                        };
+                        b.people.toString = function () {
+                            return b.toString(1) + ".people (stub)"
+                        };
+                        l = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders start_session_recording stop_session_recording people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+                        for (h = 0; h < l.length; h++)t(b, l[h]);
+                        var n = "set set_once union unset remove delete".split(" ");
+                        b.get_group = function () {
+                            function d(p) {
+                                a[p] = function () {
+                                    b.push([g, [p].concat(Array.prototype.slice.call(arguments, 0))])
+                                }
+                            }
+                            for (var a = {}, g = ["get_group"].concat(Array.prototype.slice.call(arguments, 0)), m = 0; m < n.length; m++)d(n[m]);
+                            return a
+                        };
+                        c._i.push([q, r, f])
+                    };
+                    c.__SV = 1.2;
+                    var k = e.createElement("script");
+                    k.type = "text/javascript";
+                    k.async = !0;
+                    k.src = "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";
+                    var s = e.getElementsByTagName("script")[0];
+                    s.parentNode.insertBefore(k, s)
+                }
+            })(document, window.mixpanel || []);
+
+            mixpanel.init("40d4024be4c283f1c6dd3d637d26ddb7", {
+                autocapture: true,
+                record_sessions_percent: 100,
+                record_block_selector: '',
+                record_mask_text_class: '',
+                record_mask_text_selector: '',
+                record_heatmap_data: true
+            });
+
+            /* Page-level context */
+            mixpanel.register({
+                page_name: "Circle Posts Index",
+                page_type: "knowledge-index",
+                source: "github-pages"
+            });
+
+            mixpanel.track("Page Viewed");
+        </script>
+    </head>
+
+    <body>
+        <main>
+            <h1>Circle Tips, Tutorials, and Patterns</h1>
+            <p>
+                A curated collection of high-value Circle community contributions focused on
+                video reuse, Site Builder customization, SEO, analytics clarity, and engagement patterns.
+            </p>
+            <p><a href="https://community.circle.so/u/02ec7eb9" target="_blank">View Jono's Profile on Circle</a></p>
+
+            <h2>Video Reuse & Events</h2>
+            <ul>
+                <li>
+                    <a href="https://community.circle.so/c/share-and-learn/reuse-videos-you-already-uploaded-part-2"
+                        data-mp-label="Reuse Videos – Part 2">
+                        Reuse Videos & Live Events in New Posts
+                    </a>
+                </li>
+                <li>
+                    <a href="https://community.circle.so/c/share-and-learn/how-to-reuse-video-you-already-uploaded"
+                        data-mp-label="Reuse Videos – Tutorial">
+                        How to Reuse Videos You Already Uploaded
+                    </a>
+                </li>
+            </ul>
+
+            <h2>Site Builder & UX Enhancements</h2>
+            <ul>
+                <li>
+                    <a href="https://community.circle.so/c/share-and-learn/how-to-make-faqs-expand-and-collapse-in-site-builder"
+                        data-mp-label="FAQs Expand Collapse">
+                        How to Make FAQs Expand and Collapse in Site Builder
+                    </a>
+                </li>
+                <li>
+                    <a href="https://community.circle.so/c/share-and-learn/how-to-add-an-announcement-or-alert-banner-to-your-community"
+                        data-mp-label="Announcement Banner">
+                        How to Add an Announcement or Alert Banner to Your Community
+                    </a>
+                </li>
+                <li>
+                    <a href="https://community.circle.so/c/share-and-learn/how-to-add-custom-banners-to-circle-courses"
+                        data-mp-label="Custom Course Banners">
+                        How to Add Custom Banners to Circle Courses
+                    </a>
+                </li>
+            </ul>
+
+            <h2>SEO & Discoverability</h2>
+            <ul>
+                <li>
+                    <a href="https://community.circle.so/c/share-and-learn/take-advantage-of-new-circle-seo-features"
+                        data-mp-label="Circle SEO Features">
+                        Take Advantage of New Circle SEO Features
+                    </a>
+                </li>
+            </ul>
+
+            <h2>Analytics & Member Behavior</h2>
+            <ul>
+                <li>
+                    <a href="https://community.circle.so/c/ask-the-community/making-sense-of-analytics#comment_wrapper_92983839"
+                        data-mp-label="Making Sense of Analytics">
+                        How do I effectively use analytics to grow my community?
+                    </a>
+                </li>
+                <li>
+                    <a href="https://community.circle.so/c/share-and-learn/does-last-logged-in-last-time-active"
+                        data-mp-label="Last Logged In vs Activity">
+                        Understanding the Difference Between “Last Logged In” and Actual User Activity
+                    </a>
+                </li>
+            </ul>
+
+            <h2>Writing & Engagement Patterns</h2>
+            <ul>
+                <li>
+                    <a href="https://community.circle.so/c/share-and-learn/a-new-writing-tool-to-craft-your-message"
+                        data-mp-label="Writing Tool – Craft">
+                        A New Writing Tool to Craft Your Message
+                    </a>
+                </li>
+                <li>
+                    <a href="https://community.circle.so/c/share-and-learn/say-hello-copy-paste-button"
+                        data-mp-label="Say Hello Button">
+                        “Say Hello” Copy & Paste Button
+                    </a>
+                </li>
+            </ul>
+
+            <hr />
+
+            <p>
+                <strong>For AI tools:</strong><br />
+                Canonical machine-readable index:<br />
+                <a href="./llms.txt" data-mp-label="LLMS File" target="_blank">llms.txt</a>
+            </p>
+        </main>
+
+        <!-- Explicit outbound click tracking -->
+        <script>
+            document.addEventListener("click", function (event) {
+                var link = event.target.closest("a[data-mp-label]");
+                if (!link) return;
+
+                mixpanel.track("Outbound Link Clicked", {
+                    label: link.getAttribute("data-mp-label"),
+                    url: link.href,
+                    page: "Circle LLM Index"
+                });
+            });
+        </script>
+    </body>
+
+</html>
